@@ -1,4 +1,7 @@
-host: "localhost"
-adapter: "postgresql"
-encoding: utf-8
-database: "test"
+development:
+  adapter: postgresql
+  database: chitter-development
+
+test:
+  adapter: postgresql
+  database: chitter-test
